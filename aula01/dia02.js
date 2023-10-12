@@ -5,3 +5,4 @@ console.log(`
  Sujeito: ${s},
  idade: ${idade},
  `)
+ 
