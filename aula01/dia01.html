@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia 01</title>
+    <style>
+        body{
+            background-color: rgb(164, 230, 230);
+            font-size: 18pt;
+            font-family: Arial;
+        }
+        h1{
+            color: rgb(214, 201, 11);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo</h1>
+    <h2>Usando h1 e h2 (e paragrafos p*)</h2>
+    <p>H1 e H2 consiste em titulo e subtitulo, enquanto P, consiste em paragrafo.</p>
+    <script>
+       var nome = 'raimundo'
+       var sanidade = parseInt(window.prompt('De 1 a 10 identifique seu estado mental.'))
+       var sani2 = parseInt(window.prompt('De 1 a 10, informe sua vontade de viver:'))
+
+       var taMal = sanidade + sani2
+       
+       if (taMal <= 8){
+        window.alert('Procure ajuda! +55 99 94002-8922 😊👍')
+       } else {
+        window.alert(`Bem-vindo, ${nome}`)
+       }
+       
+    </script>
+</body>
+</html>
